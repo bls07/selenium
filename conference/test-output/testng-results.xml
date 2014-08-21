@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleSuite" duration-ms="50289" started-at="2014-08-21T11:11:32Z" finished-at="2014-08-21T11:12:22Z">
+    <groups>
+    </groups>
+    <test name="Login_113" duration-ms="38542" started-at="2014-08-21T11:11:32Z" finished-at="2014-08-21T11:12:11Z">
+      <class name="tests.LoginTest113">
+        <test-method status="PASS" signature="miq113()[pri:0, instance:tests.LoginTest113@feca44]" name="miq113" is-config="true" duration-ms="14586" started-at="2014-08-21T16:41:32Z" finished-at="2014-08-21T16:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- miq113 -->
+        <test-method status="PASS" signature="login113()[pri:0, instance:tests.LoginTest113@feca44]" name="login113" duration-ms="14177" started-at="2014-08-21T16:41:47Z" finished-at="2014-08-21T16:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login113 -->
+        <test-method status="PASS" signature="logout113()[pri:0, instance:tests.LoginTest113@feca44]" name="logout113" duration-ms="9177" started-at="2014-08-21T16:42:01Z" depends-on-methods="tests.LoginTest113.login113" finished-at="2014-08-21T16:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout113 -->
+      </class> <!-- tests.LoginTest113 -->
+    </test> <!-- Login_113 -->
+    <test name="Login_51" duration-ms="50289" started-at="2014-08-21T11:11:32Z" finished-at="2014-08-21T11:12:22Z">
+      <class name="tests.LoginTest51">
+        <test-method status="PASS" signature="miq51()[pri:0, instance:tests.LoginTest51@12c2a62]" name="miq51" is-config="true" duration-ms="20475" started-at="2014-08-21T16:41:32Z" finished-at="2014-08-21T16:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- miq51 -->
+        <test-method status="PASS" signature="login51()[pri:0, instance:tests.LoginTest51@12c2a62]" name="login51" duration-ms="22389" started-at="2014-08-21T16:41:53Z" description="login51--&gt;class--&gt;LoginTest51--&gt;tests" finished-at="2014-08-21T16:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login51 -->
+        <test-method status="PASS" signature="logout51()[pri:0, instance:tests.LoginTest51@12c2a62]" name="logout51" duration-ms="7165" started-at="2014-08-21T16:42:15Z" depends-on-methods="tests.LoginTest51.login51" finished-at="2014-08-21T16:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout51 -->
+      </class> <!-- tests.LoginTest51 -->
+    </test> <!-- Login_51 -->
+  </suite> <!-- SampleSuite -->
+</testng-results>
