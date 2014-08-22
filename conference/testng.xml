@@ -11,16 +11,18 @@
     </run>
   </groups>
  
-<test name="Login_51">
-    <classes>
-      <class name="tests.LoginTest51"/>
-    </classes>
-</test>
 
 <test name="Login_113" >
     <classes>
        <class name="tests.LoginTest113" />
     </classes>
 </test>
+
+<test name="Login_51">
+    <classes>
+      <class name="tests.LoginTest51"/>
+    </classes>
+</test>
+
 
 </suite>
