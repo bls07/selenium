@@ -70,7 +70,7 @@ public class CustomListener extends TestListenerAdapter {
 	    }
 		 
 	    private void log(String string) {
-	        System.out.print(string+"test 1");
+	        System.out.print(string);
 	     
 	    }
 
