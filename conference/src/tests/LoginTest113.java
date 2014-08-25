@@ -36,10 +36,6 @@ public class LoginTest113 {
 	
 	@Test(timeOut=300)
 	public void login113()  {
-		if(1==1)
-		{
-			return;
-		}
 		driver.findElement(By.id("user_login")).clear();
 	    driver.findElement(By.id("user_login")).sendKeys("admin");
 	    driver.findElement(By.id("user_pass")).sendKeys("admin589");
