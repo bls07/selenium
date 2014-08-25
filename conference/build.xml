@@ -54,7 +54,7 @@
 	<!--Imposing that task on a particular files and giving a target name which can be accessed from Command line-->
 		
 		<target name="runCmd" depends="compile" >
-			<echo message="Running Test scripts...." />
+			<echo message="Running Test scripts....." />
 			<tstamp>
 				<format property="CURRENT_TIME" pattern="dd-MMM-yyyy HH mm ss"/>
 			</tstamp>
