@@ -35,7 +35,7 @@ public class LoginTest113 {
   
 	
 	@Test(timeOut=3)
-	public void login113()  {
+	public void login113() throws Exception {
 		driver.findElement(By.id("user_login")).clear();
 	    driver.findElement(By.id("user_login")).sendKeys("admin");
 	    driver.findElement(By.id("user_pass")).sendKeys("admin589");
