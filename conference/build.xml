@@ -43,7 +43,7 @@
 	
 	<target name="compile" depends="clean,init,setClassPath">
 	
-		<echo message="compiling...." />
+		<echo message="compiling....." />
 	    
 		<javac  destdir="${build.dir}" 
 	    		srcdir="${src.dir}" 
