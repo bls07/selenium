@@ -5,39 +5,39 @@
       <![CDATA[<p style='background-color:#ffff42'>the method login113 has been timeOut</p>]]>
     </line>
   </reporter-output>
-  <suite name="SampleSuite" duration-ms="34108" started-at="2014-09-03T06:58:10Z" finished-at="2014-09-03T06:58:44Z">
+  <suite name="SampleSuite" duration-ms="96651" started-at="2014-09-09T14:36:48Z" finished-at="2014-09-09T14:38:25Z">
     <groups>
     </groups>
-    <test name="Login_113" duration-ms="19897" started-at="2014-09-03T06:58:10Z" finished-at="2014-09-03T06:58:30Z">
+    <test name="Login_113" duration-ms="67414" started-at="2014-09-09T14:36:48Z" finished-at="2014-09-09T14:37:56Z">
       <class name="tests.LoginTest113">
-        <test-method status="PASS" signature="miq113()[pri:0, instance:tests.LoginTest113@12c2a62]" name="miq113" is-config="true" duration-ms="5796" started-at="2014-09-03T12:28:10Z" finished-at="2014-09-03T12:28:16Z">
+        <test-method status="PASS" signature="miq113()[pri:0, instance:tests.LoginTest113@1386958]" name="miq113" is-config="true" duration-ms="22042" started-at="2014-09-09T20:06:48Z" finished-at="2014-09-09T20:07:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- miq113 -->
-        <test-method status="PASS" signature="login113()[pri:0, instance:tests.LoginTest113@12c2a62]" name="login113" duration-ms="7472" started-at="2014-09-03T12:28:16Z" finished-at="2014-09-03T12:28:24Z">
+        <test-method status="PASS" signature="login113()[pri:0, instance:tests.LoginTest113@1386958]" name="login113" duration-ms="26304" started-at="2014-09-09T20:07:10Z" finished-at="2014-09-09T20:07:37Z">
           <reporter-output>
             <line>
               <![CDATA[<p style='background-color:#ffff42'>the method login113 has been timeOut</p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- login113 -->
-        <test-method status="PASS" signature="logout113()[pri:0, instance:tests.LoginTest113@12c2a62]" name="logout113" duration-ms="6033" started-at="2014-09-03T12:28:24Z" depends-on-methods="tests.LoginTest113.login113" finished-at="2014-09-03T12:28:30Z">
+        <test-method status="PASS" signature="logout113()[pri:0, instance:tests.LoginTest113@1386958]" name="logout113" duration-ms="18665" started-at="2014-09-09T20:07:37Z" depends-on-methods="tests.LoginTest113.login113" finished-at="2014-09-09T20:07:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout113 -->
       </class> <!-- tests.LoginTest113 -->
     </test> <!-- Login_113 -->
-    <test name="Login_51" duration-ms="34108" started-at="2014-09-03T06:58:10Z" finished-at="2014-09-03T06:58:44Z">
+    <test name="Login_51" duration-ms="96650" started-at="2014-09-09T14:36:48Z" finished-at="2014-09-09T14:38:25Z">
       <class name="tests.LoginTest51">
-        <test-method status="PASS" signature="miq51()[pri:0, instance:tests.LoginTest51@feca44]" name="miq51" is-config="true" duration-ms="12645" started-at="2014-09-03T12:28:10Z" finished-at="2014-09-03T12:28:23Z">
+        <test-method status="PASS" signature="miq51()[pri:0, instance:tests.LoginTest51@f5090e]" name="miq51" is-config="true" duration-ms="17568" started-at="2014-09-09T20:06:48Z" finished-at="2014-09-09T20:07:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- miq51 -->
-        <test-method status="PASS" signature="login51()[pri:0, instance:tests.LoginTest51@feca44]" name="login51" duration-ms="15055" started-at="2014-09-03T12:28:23Z" description="login51--&gt;class--&gt;LoginTest51--&gt;tests" finished-at="2014-09-03T12:28:38Z">
+        <test-method status="PASS" signature="login51()[pri:0, instance:tests.LoginTest51@f5090e]" name="login51" duration-ms="53083" started-at="2014-09-09T20:07:06Z" description="login51--&gt;class--&gt;LoginTest51--&gt;tests" finished-at="2014-09-09T20:07:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login51 -->
-        <test-method status="PASS" signature="logout51()[pri:0, instance:tests.LoginTest51@feca44]" name="logout51" duration-ms="6120" started-at="2014-09-03T12:28:38Z" depends-on-methods="tests.LoginTest51.login51" finished-at="2014-09-03T12:28:44Z">
+        <test-method status="PASS" signature="logout51()[pri:0, instance:tests.LoginTest51@f5090e]" name="logout51" duration-ms="25897" started-at="2014-09-09T20:07:59Z" depends-on-methods="tests.LoginTest51.login51" finished-at="2014-09-09T20:08:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout51 -->
